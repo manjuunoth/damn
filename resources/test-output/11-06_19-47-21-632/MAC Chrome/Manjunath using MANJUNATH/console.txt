@@ -1,0 +1,216 @@
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_SUITE_HTML
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_REPORT_HTML
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact FAILURE_SOURCE
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact CONSOLE_LOG
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact WCAG_REPORT
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_RECORD_CSV
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_RECORD_HTML
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_SUITE_HTML
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_SUITE_JSON
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_HISTORY_JSON
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_HISTORY_HTML
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_TEST_JSON
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_TEST_HTML
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact REPORTIUM
+Nov 06, 2018 7:46:30 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact SAUCE_LABS
+Nov 06, 2018 7:46:30 PM utils.CustomAbstractSeleniumTest getDeviceData
+WARNING: thread count confiures as full device list
+Nov 06, 2018 7:46:30 PM org.xframium.device.ng.TestContainer <init>
+WARNING: main: Executing 1 tests across 1 devices
+Nov 06, 2018 7:46:30 PM org.xframium.device.ng.RunContainer addRun
+WARNING: xF-Acquiring Test Package...:ADDING Chrome - Manjunath using MANJUNATH
+Nov 06, 2018 7:46:30 PM org.xframium.device.factory.DriverManager getDriverFactory
+INFO: Creating Driver Factory as org.xframium.device.factory.spi.WEBDriverFactory
+Nov 06, 2018 7:46:30 PM org.xframium.device.factory.spi.WEBDriverFactory _createDriver
+WARNING: xF-Manjunath-->MAC Chrome: Acquiring Device as: 
+windTunnelPersona=MANJUNATH
+password=
+platformVersion=null
+browserName=chrome
+model=Chrome
+platformName=MAC
+version=
+user=
+platform=ANY
+
+against http://127.0.0.1:4444/wd/hub
+Nov 06, 2018 7:46:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 06, 2018 7:46:32 PM org.xframium.device.factory.DeviceWebDriver$DeviceTimeouts implicitlyWait
+INFO: Setting IMPLICIT WAIT to 10000
+Nov 06, 2018 7:46:32 PM org.xframium.device.factory.DeviceWebDriver setExecutionId
+INFO: Execution ID recorded as [c8b094f1-5156-4e96-ac32-6553b45fc124]
+Nov 06, 2018 7:46:34 PM org.xframium.device.factory.DeviceWebDriver$DeviceTimeouts implicitlyWait
+INFO: Setting IMPLICIT WAIT to 6000
+Nov 06, 2018 7:46:34 PM org.xframium.device.ng.TestContainer getTestPackage
+WARNING: Test Started: Chrome - Manjunath using MANJUNATH - MAC OS Chrome - org.xframium.device.ng.TestPackage@5e8604bf - org.xframium.device.ng.TestName@20095ab4
+Nov 06, 2018 7:46:34 PM org.xframium.device.ng.AbstractSeleniumTest beforeMethod
+INFO: xF-Manjunath-->MAC Chrome: acquired for Manjunath
+Nov 06, 2018 7:46:34 PM org.xframium.page.factory.DefaultPageFactory _createPage
+INFO: Attempting to create PROXY interface by interface pages.LoginPage
+Nov 06, 2018 7:46:34 PM org.xframium.page.factory.LocalPageFactory _createPage
+INFO: Creating page implementation as pages.spi.LoginPageImpl
+Nov 06, 2018 7:46:34 PM org.xframium.device.factory.DeviceWebDriver _getContext
+WARNING: Context Switches are not supported - Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
+System info: host: 'S.local', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '10.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 14 milliseconds
+Nov 06, 2018 7:46:34 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='userName']]
+Nov 06, 2018 7:46:34 PM org.xframium.page.element.spi.set.AbstractSetMethod set
+INFO: xF-Manjunath-->MAC Chrome: Setting value to manjuu using [DefaultSetMethod]
+Nov 06, 2018 7:46:34 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='userName']]
+Nov 06, 2018 7:46:34 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='userName']]
+Nov 06, 2018 7:46:35 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='password']]
+Nov 06, 2018 7:46:35 PM org.xframium.page.element.spi.set.AbstractSetMethod set
+INFO: xF-Manjunath-->MAC Chrome: Setting value to manjuu using [DefaultSetMethod]
+Nov 06, 2018 7:46:35 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='password']]
+Nov 06, 2018 7:46:35 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='password']]
+Nov 06, 2018 7:46:35 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='login']]
+Nov 06, 2018 7:47:15 PM org.xframium.page.factory.DefaultPageFactory _createPage
+INFO: Attempting to create PROXY interface by interface pages.LoginPage
+Nov 06, 2018 7:47:15 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath:    //a[@href='mercurysignoff.php']]
+Nov 06, 2018 7:47:21 PM org.xframium.device.ng.AbstractSeleniumTest afterMethod
+SEVERE: Uncaught test failure
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy20.logout(Unknown Source)
+	at test.Tes.Manjunath(Tes.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.xframium.page.factory.DefaultPageFactory.invoke(DefaultPageFactory.java:165)
+	... 26 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"   //a[@href='mercurysignoff.php']"}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
+System info: host: 'S.local', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49971}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.org.chromium.Chromium.Cip2su}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.77, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2dcd9992e5636dd01a52f7449f999a35
+*** Element info: {Using=xpath, value=   //a[@href='mercurysignoff.php']}
+Command duration or timeout: 6.22 seconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.xframium.device.factory.DeviceWebDriver.findElement(DeviceWebDriver.java:814)
+	at org.xframium.page.element.SeleniumElement.getElement(SeleniumElement.java:752)
+	at org.xframium.page.element.SeleniumElement._getNative(SeleniumElement.java:786)
+	at org.xframium.page.element.AbstractElement.getNative(AbstractElement.java:729)
+	at org.xframium.reporting.ReportingElementAdapter.getNative(ReportingElementAdapter.java:225)
+	at functions.MLQGenericKeyWordPageImpl._click(MLQGenericKeyWordPageImpl.java:266)
+	at pages.spi.LoginPageImpl.logout(LoginPageImpl.java:51)
+	... 31 more
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
+	... 43 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"   //a[@href='mercurysignoff.php']"}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
+System info: host: 'S.local', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49971}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.org.chromium.Chromium.Cip2su}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.77, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2dcd9992e5636dd01a52f7449f999a35
+*** Element info: {Using=xpath, value=   //a[@href='mercurysignoff.php']}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'S.local', ip: '2405:204:5316:b9cc:e5ba:3c8c:ffee:75d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_171'
+Driver info: driver.version: EventFiringWebDriver
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:844)
+
+Nov 06, 2018 7:47:22 PM org.xframium.device.ng.AbstractSeleniumTest cleanUpConnectedDevice
+INFO: xF-Manjunath-->MAC Chrome: Attempting to clean up Manjunath using MANJUNATH on MAC OS Chrome
+Nov 06, 2018 7:47:22 PM org.xframium.artifact.AbstractArtifact generateArtifact
+INFO: xF-Manjunath-->MAC Chrome: Generating artifact for FAILURE_SOURCE
+Nov 06, 2018 7:47:22 PM org.xframium.artifact.AbstractArtifact writeToDisk
+INFO: Writing stream to /Users/manjunathda/git/xframium_Manjunath/V/resources/test-output/11-06_19-47-21-632/MAC Chrome/Manjunath using MANJUNATH/failureDOM.xml
+Nov 06, 2018 7:47:22 PM org.xframium.device.ng.AbstractSeleniumTest cleanUpConnectedDevice
+INFO: xF-Manjunath-->MAC Chrome:Closing WebDriver 
+Nov 06, 2018 7:47:22 PM org.xframium.artifact.AbstractArtifact generateArtifact
+INFO: xF-Manjunath-->MAC Chrome: Generating artifact for EXECUTION_REPORT_HTML
+Nov 06, 2018 7:47:22 PM org.xframium.artifact.AbstractArtifact generateArtifact
+INFO: xF-Manjunath-->MAC Chrome: Generating artifact for CONSOLE_LOG

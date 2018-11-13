@@ -1,0 +1,44 @@
+#
+# CLoud Registry
+#
+cloudRegistry.provider=XML
+cloudRegistry.fileName=../resources/cloudRegistry.xml
+cloudRegistry.cloudUnderTest=local
+
+#
+# Application Registry
+#
+applicationRegistry.provider=XML
+applicationRegistry.fileName=../resources/applicationRegistry.xml
+applicationRegistry.applicationUnderTest=FlightApp
+
+#
+# Device Management
+#
+deviceManagement.provider=XML
+deviceManagement.driverType=WEB
+deviceManagement.fileName=../resources/deviceRegistry.xml
+
+pageManagement.siteName=FlightApp
+pageManagement.pageName=LoginPage
+pageManagement.provider=XML
+pageManagement.fileName=../resources/LoginPage.xml
+
+#
+# Artifact Production
+#
+
+artifactProducer.provider=PERFECTO
+artifactProducer.parentFolder=test-output
+artifactProducer.automated=EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS
+
+
+driver.propertyAdapters=org.xframium.device.property.SeleniumPropertyAdapter
+selenium.timeouts.implicitWait=6000
+#selenium.timeouts.pageLoad=45000
+selenium.timeouts.setScript=30000
+
+# Driver
+
+driver.configName =../Suite.xml
+driver.displayResults=true
