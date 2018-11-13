@@ -25,7 +25,7 @@ public class Tes extends CustomAbstractSeleniumTest
 			LoginPageImpl.instance(driver).logout(tcID, softAssert);
 			
 			softAssert.assertAll();
-			System.out.println("Comp");
+			System.out.println("Manjunath");
 		}
 		catch(Exception e)
 		{
