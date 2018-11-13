@@ -1,0 +1,43 @@
+#
+# CLoud Registry
+#
+cloudRegistry.provider=XML
+cloudRegistry.fileName=../resources/cloudRegistry.xml
+cloudRegistry.cloudUnderTest=local
+
+#
+# Application Registry
+#
+applicationRegistry.provider=XML
+applicationRegistry.fileName=../resources/applicationRegistry.xml
+applicationRegistry.applicationUnderTest=FACEBOOK
+
+#
+# Device Management
+#
+deviceManagement.provider=XML
+deviceManagement.driverType=WEB
+deviceManagement.fileName=../resources/deviceRegistry.xml
+
+pageManagement.siteName=Facebook
+pageManagement.pageName=LoginPage
+pageManagement.provider=XML
+pageManagement.fileName=../resources/LoginPage.xml
+
+#
+# Artifact Production
+#
+
+artifactProducer.provider = perfecto
+artifactProducer.parentFolder=test-output
+artifacrtProducer.automated=EXECUTION_REPORT_HTML
+
+driver.propertyAdapters=org.xframium.device.property.SeleniumPropertyAdapter
+selenium.timeouts.implicitWait=6000
+#selenium.timeouts.pageLoad=45000
+selenium.timeouts.setScript=30000
+
+# Driver
+
+driver.configName =../Suite.xml
+driver.displayResults=true

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementDefinition xmlns="http://www.xframium.org/pageRegistry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xframium.org/pageRegistry http://www.xframium.org/xsd/pageManagement/pageRegistry.xsd">
+<site name="FlightApp">
+  <page name="LoginPage" class="package pages.LoginPage">
+  
+    <element name="txt_usernameFP" value="//input[@name='userName']" descriptor="XPATH"/>
+    <element name="txt_passwordFP" value="//input[@name='password']" descriptor="XPATH"/>
+    <element name="btn_signinFP" value="//input[@name='login']" descriptor="XPATH"/>
+      <element name="btn_signoffFP" value="   //a[@href='mercurysignoff.php']" descriptor="XPATH"/>
+ 
+    
+  </page>
+  </site>
+</elementDefinition>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementDefinition xmlns="http://www.xframium.org/pageRegistry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xframium.org/pageRegistry http://www.xframium.org/xsd/pageManagement/pageRegistry.xsd">
+<site name="Facebook">
+  <page name="LoginPage" class="package pages.LoginPage">
+    <element name="txt_UserName" value="//input[@id='email']" descriptor="XPATH"/>
+    <element name="txt_password" value="//input[@id='pass']" descriptor="XPATH"/>
+    <element name="btn_login" value="//input[@type='submit']" descriptor="XPATH"/>
+    <element name="txt_UserNameezlynx" value="//input[@id='textUserName']" descriptor="XPATH"/>
+    <element name="txt_passwordezlynx" value="//input[@id='textPassword']" descriptor="XPATH"/>
+    <element name="btn_loginezlynx" value="//input[@id='buttonlogin']" descriptor="XPATH"/> 
+  </page>
+  </site>
+</elementDefinition>

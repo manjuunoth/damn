@@ -1,0 +1,102 @@
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_SUITE_HTML
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_REPORT_HTML
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact FAILURE_SOURCE
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact CONSOLE_LOG
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact WCAG_REPORT
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_RECORD_CSV
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_RECORD_HTML
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_SUITE_HTML
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_SUITE_JSON
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_HISTORY_JSON
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_HISTORY_HTML
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_TEST_JSON
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact EXECUTION_TEST_HTML
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact REPORTIUM
+Nov 06, 2018 7:45:26 PM org.xframium.artifact.ArtifactManager enableArtifact
+INFO: Enabling artifact SAUCE_LABS
+Nov 06, 2018 7:45:26 PM utils.CustomAbstractSeleniumTest getDeviceData
+WARNING: thread count confiures as full device list
+Nov 06, 2018 7:45:26 PM org.xframium.device.ng.TestContainer <init>
+WARNING: main: Executing 1 tests across 1 devices
+Nov 06, 2018 7:45:26 PM org.xframium.device.ng.RunContainer addRun
+WARNING: xF-Acquiring Test Package...:ADDING Chrome - Manjunath using MANJUNATH
+Nov 06, 2018 7:45:26 PM org.xframium.device.factory.DriverManager getDriverFactory
+INFO: Creating Driver Factory as org.xframium.device.factory.spi.WEBDriverFactory
+Nov 06, 2018 7:45:26 PM org.xframium.device.factory.spi.WEBDriverFactory _createDriver
+WARNING: xF-Manjunath-->MAC Chrome: Acquiring Device as: 
+windTunnelPersona=MANJUNATH
+password=
+platformVersion=null
+browserName=chrome
+model=Chrome
+platformName=MAC
+version=
+user=
+platform=ANY
+
+against http://127.0.0.1:4444/wd/hub
+Nov 06, 2018 7:45:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 06, 2018 7:45:28 PM org.xframium.device.factory.DeviceWebDriver$DeviceTimeouts implicitlyWait
+INFO: Setting IMPLICIT WAIT to 10000
+Nov 06, 2018 7:45:28 PM org.xframium.device.factory.DeviceWebDriver setExecutionId
+INFO: Execution ID recorded as [c864de00-3c60-4681-9342-788ff25d2699]
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver$DeviceTimeouts implicitlyWait
+INFO: Setting IMPLICIT WAIT to 6000
+Nov 06, 2018 7:45:31 PM org.xframium.device.ng.TestContainer getTestPackage
+WARNING: Test Started: Chrome - Manjunath using MANJUNATH - MAC OS Chrome - org.xframium.device.ng.TestPackage@5e8604bf - org.xframium.device.ng.TestName@20095ab4
+Nov 06, 2018 7:45:31 PM org.xframium.device.ng.AbstractSeleniumTest beforeMethod
+INFO: xF-Manjunath-->MAC Chrome: acquired for Manjunath
+Nov 06, 2018 7:45:31 PM org.xframium.page.factory.DefaultPageFactory _createPage
+INFO: Attempting to create PROXY interface by interface pages.LoginPage
+Nov 06, 2018 7:45:31 PM org.xframium.page.factory.LocalPageFactory _createPage
+INFO: Creating page implementation as pages.spi.LoginPageImpl
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver _getContext
+WARNING: Context Switches are not supported - Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
+System info: host: 'S.local', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '10.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 14 milliseconds
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='userName']]
+Nov 06, 2018 7:45:31 PM org.xframium.page.element.spi.set.AbstractSetMethod set
+INFO: xF-Manjunath-->MAC Chrome: Setting value to manjuu using [DefaultSetMethod]
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='userName']]
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='userName']]
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='password']]
+Nov 06, 2018 7:45:31 PM org.xframium.page.element.spi.set.AbstractSetMethod set
+INFO: xF-Manjunath-->MAC Chrome: Setting value to manjuu using [DefaultSetMethod]
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='password']]
+Nov 06, 2018 7:45:31 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='password']]
+Nov 06, 2018 7:45:32 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath: //input[@name='login']]
+Nov 06, 2018 7:45:51 PM org.xframium.page.factory.DefaultPageFactory _createPage
+INFO: Attempting to create PROXY interface by interface pages.LoginPage
+Nov 06, 2018 7:45:51 PM org.xframium.device.factory.DeviceWebDriver findElement
+INFO: xF-Manjunath-->MAC Chrome: Locating element using [By.xpath:    //a[@href='mercurysignoff.php']]
+Nov 06, 2018 7:45:58 PM org.xframium.device.ng.AbstractSeleniumTest cleanUpConnectedDevice
+INFO: xF-Manjunath-->MAC Chrome: Attempting to clean up Manjunath using MANJUNATH on MAC OS Chrome
+Nov 06, 2018 7:45:58 PM org.xframium.device.ng.AbstractSeleniumTest cleanUpConnectedDevice
+INFO: xF-Manjunath-->MAC Chrome:Closing WebDriver 
+Nov 06, 2018 7:45:58 PM org.xframium.artifact.AbstractArtifact generateArtifact
+INFO: xF-Manjunath-->MAC Chrome: Generating artifact for EXECUTION_REPORT_HTML
+Nov 06, 2018 7:45:58 PM org.xframium.artifact.AbstractArtifact generateArtifact
+INFO: xF-Manjunath-->MAC Chrome: Generating artifact for CONSOLE_LOG
