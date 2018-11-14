@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4401" started-at="2018-11-13T16:45:38Z" finished-at="2018-11-13T16:45:43Z">
+  <suite name="Default suite" duration-ms="34617" started-at="2018-11-14T17:21:52Z" finished-at="2018-11-14T17:22:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4401" started-at="2018-11-13T16:45:38Z" finished-at="2018-11-13T16:45:43Z">
+    <test name="Default test" duration-ms="34617" started-at="2018-11-14T17:21:52Z" finished-at="2018-11-14T17:22:26Z">
       <class name="test.Tes">
-        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="setupSuite" is-config="true" duration-ms="1697" started-at="2018-11-13T22:15:37Z" finished-at="2018-11-13T22:15:38Z">
+        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="setupSuite" is-config="true" duration-ms="1453" started-at="2018-11-14T22:51:50Z" finished-at="2018-11-14T22:51:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2822c6ff]]>
+                <![CDATA[org.testng.TestRunner@7f572c37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="beforeMethod" is-config="true" duration-ms="3827" started-at="2018-11-13T22:15:38Z" finished-at="2018-11-13T22:15:42Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="beforeMethod" is-config="true" duration-ms="16839" started-at="2018-11-14T22:51:52Z" finished-at="2018-11-14T22:52:08Z">
           <params>
             <param index="0">
               <value>
@@ -27,31 +27,31 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@4dafba3e]]>
+                <![CDATA[[Ljava.lang.Object;@2add4d24]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@2822c6ff]]>
+                <![CDATA[org.testng.TestRunner@7f572c37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="Manjunath(org.xframium.device.ng.TestContainer)[pri:0, instance:test.Tes@34cd072c]" name="Manjunath" duration-ms="27" started-at="2018-11-13T22:15:42Z" data-provider="mlqDeviceManager" finished-at="2018-11-13T22:15:42Z">
+        <test-method status="FAIL" signature="Manjunath(org.xframium.device.ng.TestContainer)[pri:0, instance:test.Tes@34cd072c]" name="Manjunath" duration-ms="13634" started-at="2018-11-14T22:52:08Z" data-provider="mlqDeviceManager" finished-at="2018-11-14T22:52:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.xframium.device.ng.TestContainer@5f303ecd]]>
+                <![CDATA[org.xframium.device.ng.TestContainer@ae7950d]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="java.lang.reflect.UndeclaredThrowableException">
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at utils.CustomAbstractSeleniumTest.reportException(CustomAbstractSeleniumTest.java:61)
-	at test.Tes.Manjunath(Tes.java:32)
+              <![CDATA[java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy20.login(Unknown Source)
+	at test.Tes.Manjunath(Tes.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -76,13 +76,24 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.xframium.page.factory.DefaultPageFactory.invoke(DefaultPageFactory.java:165)
+	... 26 more
+Caused by: java.lang.NullPointerException
+	at utils.CustomAbstractPage.getElement(CustomAbstractPage.java:18)
+	at pages.spi.LoginPageImpl.login(LoginPageImpl.java:45)
+	... 31 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.reflect.UndeclaredThrowableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Manjunath -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="afterMethod" is-config="true" duration-ms="508" started-at="2018-11-13T22:15:42Z" finished-at="2018-11-13T22:15:43Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="afterMethod" is-config="true" duration-ms="4117" started-at="2018-11-14T22:52:22Z" finished-at="2018-11-14T22:52:26Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +102,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@4dafba3e]]>
+                <![CDATA[[Ljava.lang.Object;@2add4d24]]>
               </value>
             </param>
             <param index="2">
@@ -101,14 +112,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@2822c6ff]]>
+                <![CDATA[org.testng.TestRunner@7f572c37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="cleanSuite()[pri:0, instance:test.Tes@34cd072c]" name="cleanSuite" is-config="true" duration-ms="22" started-at="2018-11-13T22:15:43Z" finished-at="2018-11-13T22:15:43Z">
+        <test-method status="PASS" signature="cleanSuite()[pri:0, instance:test.Tes@34cd072c]" name="cleanSuite" is-config="true" duration-ms="63" started-at="2018-11-14T22:52:26Z" finished-at="2018-11-14T22:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanSuite -->

@@ -1,12 +1,11 @@
 package pages.spi;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.asserts.SoftAssert;
 import org.xframium.device.factory.DeviceWebDriver;
-import org.xframium.page.AbstractPage;
 import org.xframium.page.PageManager;
 import org.xframium.page.StepStatus;
 
-import functions.*;
 import pages.LoginPage;
 import utils.CustomAbstractPage;
 import utils.CustomReporting;
@@ -27,16 +26,23 @@ public   class LoginPageImpl extends CustomAbstractPage implements LoginPage
 	@Override
 	public void login(String tcID,SoftAssert softAssert) 
 	{
+	
 		CustomReporting.instance().startSyntheticStep("LogIn To Application", getCustumWebDriver(), new String[] {});
 		String strUrl = getCustumWebDriver().getCurrentUrl();
-		
-		
-		_setValue(getElement(LoginPage.txt_usernameFP).cloneElement(),"manjuu");
-		_setValue(getElement(LoginPage.txt_passwordFP).cloneElement(), "manjuu");
-		_click(getElement(LoginPage.btn_signinFP));
+		WebDriver driver = getCustumWebDriver();
 	
+		_click(getElement(icon_LoginM));
+		_setValue(getElement(txt_usernameMMT),"manjuunothda@gmail.com");
+		_setValue(getElement(txt_passwordMMT), "man@2018");
+		_click(getElement(btn_signinMMT));
+		
+		_click(getElement(btn_logo));
+	
+		houseOver(getElement(btn_womenMenu));
+		
 		waitForPageLoad();
 		
+		scrollToElement(getElement(""));
 		CustomReporting.instance().completeStep(StepStatus.SUCCESS, getCustumWebDriver(), new IgnoreMLQException(strUrl));
 	
 	

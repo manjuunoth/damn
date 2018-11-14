@@ -34,6 +34,25 @@ public class MLQGenericKeyWordPageImpl extends AbstractPage
 		return (DeviceWebDriver) webDriver;
 	}
 	
+	//hoverover
+	
+	public void houseOver(Element element)
+	{
+		try
+		{
+		WebDriver driver = getCustumWebDriver();
+		CustomReporting.instance().startStep("SET",element,null);
+		Actions actions = new Actions(driver);
+		WebElement ele = ((WebElement)element.getNative());
+		actions.moveToElement(ele).build().perform();
+		}
+		catch(Exception ex)
+		{
+			throw new ScriptException(ex.toString());
+			
+			
+		}
+	}
 	
 	
 	//used to wait for page load
@@ -41,7 +60,7 @@ public class MLQGenericKeyWordPageImpl extends AbstractPage
 	{
 		try
 		{
-		WebDriverWait wait = new WebDriverWait(getCustumWebDriver(),300);
+		WebDriverWait wait = new WebDriverWait(getCustumWebDriver(),6000);
 
 		wait.until(new ExpectedCondition<Boolean>() 
 				{
@@ -75,8 +94,8 @@ public class MLQGenericKeyWordPageImpl extends AbstractPage
 	
 	public void scrollToElement(Element element)
 	{
-		if(isVisible(element))
-		{
+	//	if(isVisible(element))
+	//	{
 			waitForPageLoad();
 			WebElement nativeElement = (WebElement)element.getNative();
 			if(nativeElement instanceof MorelandWebElement)
@@ -84,7 +103,19 @@ public class MLQGenericKeyWordPageImpl extends AbstractPage
 		((JavascriptExecutor)getCustumWebDriver()).executeScript("arguments[0].scrollIntoView(true);", nativeElement); 
 		
 		}
-	}
+	//}
+
+public boolean isVisible(String Xpath)
+{
+ try{
+return getCustumWebDriver().findElement(By.xpath(Xpath)).isDisplayed();
+}
+catch(Exception ex)
+{
+return false;
+}
+}
+
 	
 	//maximize the browser
 	

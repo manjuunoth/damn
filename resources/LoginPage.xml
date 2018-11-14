@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <elementDefinition xmlns="http://www.xframium.org/pageRegistry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xframium.org/pageRegistry http://www.xframium.org/xsd/pageManagement/pageRegistry.xsd">
-<site name="FlightApp">
+<site name="MMT">
   <page name="LoginPage" class="package pages.LoginPage">
   
-    <element name="txt_usernameFP" value="//input[@name='userName']" descriptor="XPATH"/>
-    <element name="txt_passwordFP" value="//input[@name='password']" descriptor="XPATH"/>
-    <element name="btn_signinFP" value="//input[@name='login']" descriptor="XPATH"/>
-      <element name="btn_signoffFP" value="   //a[@href='mercurysignoff.php']" descriptor="XPATH"/>
+    <element name="icon_LoginM" value="//a[@class='login']" descriptor="XPATH"/>
+    <element name="txt_usernameMMT" value="//input[@id='email']" descriptor="XPATH"/>
+    <element name="txt_passwordMMT" value="//input[@id='passwd']" descriptor="XPATH"/>
+    <element name="btn_signinMMT" value="//button[@id='SubmitLogin']" descriptor="XPATH"/>
+    <element name="btn_logo" value="//img[@class='logo img-responsive']" descriptor="XPATH"/>
+    <element name="btn_signoffFP" value="//a[@class='logout']" descriptor="XPATH"/>
+   
+    <element name="btn_womenMenu" value=" //ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[1]" descriptor="XPATH"/>
  
-    
   </page>
+  
   </site>
 </elementDefinition>

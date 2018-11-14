@@ -6,6 +6,7 @@ import org.xframium.device.factory.DeviceWebDriver;
 import org.xframium.device.ng.TestContainer;
 
 import pages.spi.LoginPageImpl;
+import pages.spi.SearchFlightImpl;
 import utils.CustomAbstractSeleniumTest;
 
 public class Tes extends CustomAbstractSeleniumTest 
@@ -19,13 +20,14 @@ public class Tes extends CustomAbstractSeleniumTest
 			SoftAssert softAssert = new SoftAssert();
 			DeviceWebDriver driver = getWebDriver();
 			String tcID= getTestName();
+		//	driver.manage().window().maximize();
+		  LoginPageImpl.instance(driver).login(tcID, softAssert);
 			
-			LoginPageImpl.instance(driver).login(tcID, softAssert);
-			
-			LoginPageImpl.instance(driver).logout(tcID, softAssert);
+		
+		  LoginPageImpl.instance(driver).logout(tcID, softAssert);
 			
 			softAssert.assertAll();
-			System.out.println("Manjunath");
+			System.out.println("Completed");
 		}
 		catch(Exception e)
 		{

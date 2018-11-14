@@ -10,7 +10,7 @@ cloudRegistry.cloudUnderTest=local
 #
 applicationRegistry.provider=XML
 applicationRegistry.fileName=../resources/applicationRegistry.xml
-applicationRegistry.applicationUnderTest=FlightApp
+applicationRegistry.applicationUnderTest=MMT
 
 #
 # Device Management
@@ -19,7 +19,7 @@ deviceManagement.provider=XML
 deviceManagement.driverType=WEB
 deviceManagement.fileName=../resources/deviceRegistry.xml
 
-pageManagement.siteName=FlightApp
+pageManagement.siteName=MMT
 pageManagement.pageName=LoginPage
 pageManagement.provider=XML
 pageManagement.fileName=../resources/LoginPage.xml

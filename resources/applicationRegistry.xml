@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <applicationRegistry xmlns="http://www.xframium.org/applicationRegistry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xframium.org/applicationRegistry http://www.xframium.org/xsd/deviceManagement/applicationRegistry.xsd">
-<application name = "FlightApp" appPackage ="" bundleId="" url="http://newtours.demoaut.com"/>
+<application name = "MMT" appPackage ="" bundleId="" url="http://automationpractice.com/index.php"/>
 <application name = "GMAIL" appPackage ="" bundleId="" url="https://www.gmail.com"/>
 
 <application name = "EZLYNX" appPackage ="" bundleId="" url="https://www2.webcetera.com/EzLynxWeb/login.aspx"/>
