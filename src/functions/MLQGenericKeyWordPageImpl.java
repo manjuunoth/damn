@@ -38,20 +38,10 @@ public class MLQGenericKeyWordPageImpl extends AbstractPage
 	
 	public void houseOver(Element element)
 	{
-		try
-		{
-		WebDriver driver = getCustumWebDriver();
-		CustomReporting.instance().startStep("SET",element,null);
-		Actions actions = new Actions(driver);
 		WebElement ele = ((WebElement)element.getNative());
+		Actions actions = new Actions(getCustumWebDriver());
 		actions.moveToElement(ele).build().perform();
-		}
-		catch(Exception ex)
-		{
-			throw new ScriptException(ex.toString());
-			
-			
-		}
+		
 	}
 	
 	

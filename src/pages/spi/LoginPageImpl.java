@@ -29,7 +29,6 @@ public   class LoginPageImpl extends CustomAbstractPage implements LoginPage
 	
 		CustomReporting.instance().startSyntheticStep("LogIn To Application", getCustumWebDriver(), new String[] {});
 		String strUrl = getCustumWebDriver().getCurrentUrl();
-		WebDriver driver = getCustumWebDriver();
 	
 		_click(getElement(icon_LoginM));
 		_setValue(getElement(txt_usernameMMT),"manjuunothda@gmail.com");
@@ -37,12 +36,9 @@ public   class LoginPageImpl extends CustomAbstractPage implements LoginPage
 		_click(getElement(btn_signinMMT));
 		
 		_click(getElement(btn_logo));
-	
-		houseOver(getElement(btn_womenMenu));
 		
 		waitForPageLoad();
 		
-		scrollToElement(getElement(""));
 		CustomReporting.instance().completeStep(StepStatus.SUCCESS, getCustumWebDriver(), new IgnoreMLQException(strUrl));
 	
 	

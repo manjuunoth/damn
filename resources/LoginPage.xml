@@ -9,9 +9,13 @@
     <element name="btn_signinMMT" value="//button[@id='SubmitLogin']" descriptor="XPATH"/>
     <element name="btn_logo" value="//img[@class='logo img-responsive']" descriptor="XPATH"/>
     <element name="btn_signoffFP" value="//a[@class='logout']" descriptor="XPATH"/>
-   
+  </page>
+  
+  
+  <page name="MenuItems" class="package pages.MenuItems">
     <element name="btn_womenMenu" value=" //ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[1]" descriptor="XPATH"/>
- 
+ 	<element name="btn_dressesMenu" value=" //ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[2]" descriptor="XPATH"/>
+ 	<element name="btn_tshirtsMenu" value=" //ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[3]" descriptor="XPATH"/>
   </page>
   
   </site>
