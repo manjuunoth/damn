@@ -1,10 +1,10 @@
 package pages.spi;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.asserts.SoftAssert;
 import org.xframium.device.factory.DeviceWebDriver;
 import org.xframium.page.PageManager;
 import org.xframium.page.StepStatus;
+import org.xframium.page.data.PageData;
 
 import pages.LoginPage;
 import utils.CustomAbstractPage;
@@ -29,10 +29,13 @@ public   class LoginPageImpl extends CustomAbstractPage implements LoginPage
 	
 		CustomReporting.instance().startSyntheticStep("LogIn To Application", getCustumWebDriver(), new String[] {});
 		String strUrl = getCustumWebDriver().getCurrentUrl();
-	
+		
+		PageData pageData [] = getRecords("authData");
+		
+		
 		_click(getElement(icon_LoginM));
-		_setValue(getElement(txt_usernameMMT),"manjuunothda@gmail.com");
-		_setValue(getElement(txt_passwordMMT), "man@2018");
+		_setValue(getElement(txt_usernameMMT),pageData[0].getData("userName"));
+		_setValue(getElement(txt_passwordMMT),pageData[0].getData("password"));
 		_click(getElement(btn_signinMMT));
 		
 		_click(getElement(btn_logo));

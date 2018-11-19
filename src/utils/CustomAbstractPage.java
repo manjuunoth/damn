@@ -1,5 +1,7 @@
 package utils;
 
+import org.xframium.page.data.PageData;
+import org.xframium.page.data.PageDataManager;
 import org.xframium.page.element.Element;
 import functions.MLQKeywordPageImplLib;
 
@@ -30,12 +32,13 @@ public abstract class CustomAbstractPage extends MLQKeywordPageImplLib
 
 	
 
-/*	protected PageData[ ]getRecords(String testName,String tableName)
+	protected PageData[]getRecords(String name)
 	{
 		String xFID = getCustumWebDriver().getExecutionContext().getxFID();
 		PageDataManager dataManager =PageDataManager.instance(xFID);
-		String key = testName+"-"+tableName.toUpperCase();
+		String key = name;
 		PageData[] pageData= dataManager.getRecords(key);
+		return pageData;
 		
-	}*/
+	}
 }

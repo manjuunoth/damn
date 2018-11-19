@@ -25,6 +25,15 @@ pageManagement.provider=XML
 pageManagement.fileName=../resources/LoginPage.xml
 
 #
+# Data Management
+#
+
+pageManagement.pageData.provider = XML
+pageManagement.pageData.fileName = ../resources/pageData.xml
+
+
+
+#
 # Artifact Production
 #
 
