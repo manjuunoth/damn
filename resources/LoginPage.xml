@@ -16,6 +16,8 @@
     <element name="btn_womenMenu" value=" //ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[1]" descriptor="XPATH"/>
  	<element name="btn_dressesMenu" value=" //ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[2]" descriptor="XPATH"/>
  	<element name="btn_tshirtsMenu" value=" //ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[3]" descriptor="XPATH"/>
+  	<element name="list_productList" value=" //ul[@class='product_list grid row']" descriptor="XPATH"/>
+  
   </page>
   
   </site>
