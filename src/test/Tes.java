@@ -32,7 +32,6 @@ public class Tes extends CustomAbstractSeleniumTest
 		}
 		catch(Exception e)
 		{
-			reportException(e);
 			e.printStackTrace();
 			throw e;
 		}

@@ -3,8 +3,11 @@
 
 <deviceRegistry xsi:schemaLocation="http://www.xframium.org/deviceRegistry http://www.xframium.org/xsd/deviceManagement/deviceRegistry.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xframium.org/deviceRegistry">
  
-  <device name="Chrome" os="MAC" browserName="Chrome" model="Chrome" availableDevices="1"  active="true" /> 
-	<device name="Firefox" os="MAC" browserName="firefox" model="Firefox" manufacturer="Mozilla" availableDevices="1"  active="false" /> 
-	
+  <device name="Chrome" os="OS X" browserName="Chrome" model="Chrome" browserVersion="54.0" availableDevices="1"  active="true" /> 
+	<device name="Firefox" os="MAC" browserName="firefox" model="Firefox" manufacturer="Mozilla" availableDevices="1"  active="false" />
+	 
+	 <device os="iOS" model="iPhone-7" tagNames="Perfecto" manufacturer="Apple" availableDevices="1" driverType="WEB" name="iPhone-7 iOS" cloud="perfecto" active="false" />
+	 
+	   <device browserName="Browser" os="Android" osVersion="4.4" model="Galaxy S6" manufacturer="Samsung" availableDevices="1" driverType="WEB" name="Android 4.4 Browser" cloud="browserstack" active="false" />
 	
 </deviceRegistry>

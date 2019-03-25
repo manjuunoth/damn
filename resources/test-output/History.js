@@ -4,6 +4,1776 @@ var suiteData = [{"pageData": {
     "sPMap": {},
     "domain": "",
     "configProperties": {
+        "xF-ID": "1a6f6292-00a2-46d4-b558-89aad5a37564",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "MMT",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/30/2019-19:57:45",
+        "dateOnly": "01/30/2019",
+        "timeOnly": "19:57:45",
+        "raw": 1548858465661
+    },
+    "endTime": {
+        "dateTime": "01/30/2019-19:59:07",
+        "dateOnly": "01/30/2019",
+        "timeOnly": "19:59:07",
+        "raw": 1548858547268
+    },
+    "reportFolder": "resources/test-output/01-30_19-58-51-729",
+    "testTags": [],
+    "executionSummary": [{
+        "exceptionType": "SCRIPT",
+        "ignored": "0",
+        "elementUsageMap": {
+            "null.LoginPage.btn_signinMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_signinMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_signinMMT"
+            },
+            "null.MenuItems.btn_dressesMenu": {
+                "failCount": "0",
+                "keyName": "null.MenuItems.btn_dressesMenu",
+                "siteName": "null",
+                "pageName": "MenuItems",
+                "passCount": "1",
+                "elementName": "btn_dressesMenu"
+            },
+            "null.LoginPage.btn_logo": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_logo",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_logo"
+            },
+            "null.null.Step": {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "1",
+                "elementName": "Step"
+            },
+            "null.LoginPage.icon_LoginM": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "icon_LoginM"
+            },
+            "null.LoginPage.txt_passwordMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_passwordMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_passwordMMT"
+            },
+            "null.LoginPage.txt_usernameMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_usernameMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_usernameMMT"
+            }
+        },
+        "failed": "1",
+        "sessionId": "3f5acfe5bddf419c950ba206d62dd632",
+        "callMap": {},
+        "elementUsage": [
+            {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "1",
+                "elementName": "Step"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_logo",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_logo"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_signinMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_signinMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "icon_LoginM"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_passwordMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_passwordMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_usernameMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_usernameMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.MenuItems.btn_dressesMenu",
+                "siteName": "null",
+                "pageName": "MenuItems",
+                "passCount": "1",
+                "elementName": "btn_dressesMenu"
+            }
+        ],
+        "tagNames": [""],
+        "cloud": {
+            "hostName": "ondemand.saucelabs.com:80",
+            "proxyPort": "null",
+            "password": "8c291b70-1cd5-4558-a7e1-28a7c2b00927",
+            "deviceAction": "null",
+            "provider": "SAUCELABS",
+            "gridInstance": "null",
+            "name": "local",
+            "description": "",
+            "userName": "manjuu",
+            "proxyHost": "null",
+            "gesture": "null"
+        },
+        "total": "8",
+        "testStatus": "FAILED",
+        "pageUsageMap": {
+            "null.MenuItems": [
+                "1",
+                "0"
+            ],
+            "null.LoginPage": [
+                "5",
+                "0"
+            ],
+            "null.null": [
+                "1",
+                "1"
+            ]
+        },
+        "name": "Manjunath using MANJUNATH",
+        "startTime": {
+            "dateTime": "01/30/2019-19:58:13",
+            "dateOnly": "01/30/2019",
+            "timeOnly": "19:58:13",
+            "raw": 1548858493084
+        },
+        "endTime": {
+            "dateTime": "01/30/2019-19:59:00",
+            "dateOnly": "01/30/2019",
+            "timeOnly": "19:59:00",
+            "raw": 1548858540936
+        },
+        "passed": "7",
+        "folderName": "MAC firefox/Manjunath using MANJUNATH",
+        "device": {
+            "capabilities": {},
+            "os": "MAC",
+            "active": false,
+            "deviceLock": "java.util.concurrent.Semaphore@507b79f7[Permits = 1]",
+            "deviceName": "Firefox",
+            "resolution": "1024 x 741",
+            "capList": [],
+            "driverType": "WEB",
+            "tagNames": [],
+            "manufacturer": "Apple Inc.",
+            "cloud": "null",
+            "environment": "MAC OS Firefox 47",
+            "osVersion": "OS",
+            "browserVersion": "null",
+            "availableDevices": "1",
+            "browserName": "Firefox 47",
+            "model": "null",
+            "cachedString": "null",
+            "key": "Firefox"
+        }
+    }],
+    "suiteName": "MMT"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "EZLYNX (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "b0edf8b9-b915-48f4-9d05-bdfc7f401976",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "EZLYNX",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/30/2019-19:55:37",
+        "dateOnly": "01/30/2019",
+        "timeOnly": "19:55:37",
+        "raw": 1548858337136
+    },
+    "endTime": {
+        "dateTime": "01/30/2019-19:56:26",
+        "dateOnly": "01/30/2019",
+        "timeOnly": "19:56:26",
+        "raw": 1548858386312
+    },
+    "reportFolder": "resources/test-output/01-30_19-56-18-886",
+    "testTags": [],
+    "executionSummary": [{
+        "exceptionType": "SCRIPT",
+        "ignored": "0",
+        "elementUsageMap": {
+            "null.null.Step": {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Step"
+            },
+            "null.LoginPage.icon_LoginM": {
+                "failCount": "1",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "0",
+                "elementName": "icon_LoginM"
+            }
+        },
+        "failed": "2",
+        "sessionId": "d667bd14a1dc40989c8a77b7b6c00ff2",
+        "callMap": {},
+        "elementUsage": [
+            {
+                "failCount": "1",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "0",
+                "elementName": "icon_LoginM"
+            },
+            {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Step"
+            }
+        ],
+        "tagNames": [""],
+        "cloud": {
+            "hostName": "ondemand.saucelabs.com:80",
+            "proxyPort": "null",
+            "password": "8c291b70-1cd5-4558-a7e1-28a7c2b00927",
+            "deviceAction": "null",
+            "provider": "SAUCELABS",
+            "gridInstance": "null",
+            "name": "local",
+            "description": "",
+            "userName": "manjuu",
+            "proxyHost": "null",
+            "gesture": "null"
+        },
+        "total": "2",
+        "testStatus": "FAILED",
+        "pageUsageMap": {
+            "null.LoginPage": [
+                "0",
+                "1"
+            ],
+            "null.null": [
+                "0",
+                "1"
+            ]
+        },
+        "name": "Manjunath using MANJUNATH",
+        "startTime": {
+            "dateTime": "01/30/2019-19:56:10",
+            "dateOnly": "01/30/2019",
+            "timeOnly": "19:56:10",
+            "raw": 1548858370457
+        },
+        "endTime": {
+            "dateTime": "01/30/2019-19:56:21",
+            "dateOnly": "01/30/2019",
+            "timeOnly": "19:56:21",
+            "raw": 1548858381440
+        },
+        "passed": "0",
+        "folderName": "MAC firefox/Manjunath using MANJUNATH",
+        "device": {
+            "capabilities": {},
+            "os": "MAC",
+            "active": false,
+            "deviceLock": "java.util.concurrent.Semaphore@3f49e266[Permits = 1]",
+            "deviceName": "Firefox",
+            "resolution": "1024 x 741",
+            "capList": [],
+            "driverType": "WEB",
+            "tagNames": [],
+            "manufacturer": "Apple Inc.",
+            "cloud": "null",
+            "environment": "MAC OS Firefox 47",
+            "osVersion": "OS",
+            "browserVersion": "null",
+            "availableDevices": "1",
+            "browserName": "Firefox 47",
+            "model": "null",
+            "cachedString": "null",
+            "key": "Firefox"
+        }
+    }],
+    "suiteName": "EZLYNX"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "MMT (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "a81d953b-6e88-4135-be67-7aaec74b4bfb",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "MMT",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/29/2019-21:46:16",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:46:16",
+        "raw": 1548778576474
+    },
+    "endTime": {
+        "dateTime": "01/29/2019-21:48:05",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:48:05",
+        "raw": 1548778685313
+    },
+    "reportFolder": "resources/test-output/01-29_21-47-48-046",
+    "testTags": [],
+    "executionSummary": [{
+        "exceptionType": "SCRIPT",
+        "ignored": "0",
+        "elementUsageMap": {
+            "null.LoginPage.btn_signinMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_signinMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_signinMMT"
+            },
+            "null.MenuItems.btn_dressesMenu": {
+                "failCount": "0",
+                "keyName": "null.MenuItems.btn_dressesMenu",
+                "siteName": "null",
+                "pageName": "MenuItems",
+                "passCount": "1",
+                "elementName": "btn_dressesMenu"
+            },
+            "null.LoginPage.btn_logo": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_logo",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_logo"
+            },
+            "null.null.Step": {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "1",
+                "elementName": "Step"
+            },
+            "null.LoginPage.icon_LoginM": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "icon_LoginM"
+            },
+            "null.LoginPage.txt_passwordMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_passwordMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_passwordMMT"
+            },
+            "null.LoginPage.txt_usernameMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_usernameMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_usernameMMT"
+            }
+        },
+        "failed": "1",
+        "sessionId": "01d817a1c716426c92d67e8ff511ed0a",
+        "callMap": {},
+        "elementUsage": [
+            {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "1",
+                "elementName": "Step"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_logo",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_logo"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_signinMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_signinMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "icon_LoginM"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_passwordMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_passwordMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_usernameMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_usernameMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.MenuItems.btn_dressesMenu",
+                "siteName": "null",
+                "pageName": "MenuItems",
+                "passCount": "1",
+                "elementName": "btn_dressesMenu"
+            }
+        ],
+        "tagNames": [""],
+        "cloud": {
+            "hostName": "ondemand.saucelabs.com:80",
+            "proxyPort": "null",
+            "password": "8c291b70-1cd5-4558-a7e1-28a7c2b00927",
+            "deviceAction": "null",
+            "provider": "SAUCELABS",
+            "gridInstance": "null",
+            "name": "local",
+            "description": "",
+            "userName": "manjuu",
+            "proxyHost": "null",
+            "gesture": "null"
+        },
+        "total": "8",
+        "testStatus": "FAILED",
+        "pageUsageMap": {
+            "null.MenuItems": [
+                "1",
+                "0"
+            ],
+            "null.LoginPage": [
+                "5",
+                "0"
+            ],
+            "null.null": [
+                "1",
+                "1"
+            ]
+        },
+        "name": "Manjunath using MANJUNATH",
+        "startTime": {
+            "dateTime": "01/29/2019-21:46:57",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:46:57",
+            "raw": 1548778617788
+        },
+        "endTime": {
+            "dateTime": "01/29/2019-21:47:58",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:47:58",
+            "raw": 1548778678825
+        },
+        "passed": "7",
+        "folderName": "MAC firefox/Manjunath using MANJUNATH",
+        "device": {
+            "capabilities": {},
+            "os": "MAC",
+            "active": false,
+            "deviceLock": "java.util.concurrent.Semaphore@44dc7b7d[Permits = 1]",
+            "deviceName": "Firefox",
+            "resolution": "1024 x 741",
+            "capList": [],
+            "driverType": "WEB",
+            "tagNames": [],
+            "manufacturer": "Apple Inc.",
+            "cloud": "null",
+            "environment": "MAC OS Firefox 47",
+            "osVersion": "OS",
+            "browserVersion": "null",
+            "availableDevices": "1",
+            "browserName": "Firefox 47",
+            "model": "null",
+            "cachedString": "null",
+            "key": "Firefox"
+        }
+    }],
+    "suiteName": "MMT"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "MMT (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "8dfbfc60-205b-4bc1-a1aa-265eabeb3cc5",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "MMT",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/29/2019-21:39:17",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:39:17",
+        "raw": 1548778157193
+    },
+    "endTime": {
+        "dateTime": "01/29/2019-21:40:25",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:40:25",
+        "raw": 1548778225389
+    },
+    "reportFolder": "resources/test-output/01-29_21-40-05-515",
+    "testTags": [],
+    "executionSummary": [{
+        "exceptionType": "SCRIPT",
+        "ignored": "0",
+        "elementUsageMap": {
+            "null.LoginPage.btn_signinMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_signinMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_signinMMT"
+            },
+            "null.MenuItems.btn_dressesMenu": {
+                "failCount": "0",
+                "keyName": "null.MenuItems.btn_dressesMenu",
+                "siteName": "null",
+                "pageName": "MenuItems",
+                "passCount": "1",
+                "elementName": "btn_dressesMenu"
+            },
+            "null.LoginPage.btn_logo": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_logo",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_logo"
+            },
+            "null.null.Step": {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "1",
+                "elementName": "Step"
+            },
+            "null.LoginPage.icon_LoginM": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "icon_LoginM"
+            },
+            "null.LoginPage.txt_passwordMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_passwordMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_passwordMMT"
+            },
+            "null.LoginPage.txt_usernameMMT": {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_usernameMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_usernameMMT"
+            }
+        },
+        "failed": "1",
+        "sessionId": "df78a4bc063e35ffba7fa31d7376fe1783b46009",
+        "callMap": {},
+        "elementUsage": [
+            {
+                "failCount": "1",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "1",
+                "elementName": "Step"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_logo",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_logo"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.btn_signinMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "btn_signinMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.icon_LoginM",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "icon_LoginM"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_passwordMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_passwordMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.LoginPage.txt_usernameMMT",
+                "siteName": "null",
+                "pageName": "LoginPage",
+                "passCount": "1",
+                "elementName": "txt_usernameMMT"
+            },
+            {
+                "failCount": "0",
+                "keyName": "null.MenuItems.btn_dressesMenu",
+                "siteName": "null",
+                "pageName": "MenuItems",
+                "passCount": "1",
+                "elementName": "btn_dressesMenu"
+            }
+        ],
+        "tagNames": [""],
+        "cloud": {
+            "hostName": "hub-cloud.browserstack.com",
+            "proxyPort": "null",
+            "password": "Lz2oBy7QgcxQHqoms7UD",
+            "deviceAction": "null",
+            "provider": "SAUCELABS",
+            "gridInstance": "null",
+            "name": "local",
+            "description": "",
+            "userName": "manju86",
+            "proxyHost": "null",
+            "gesture": "null"
+        },
+        "total": "8",
+        "testStatus": "FAILED",
+        "pageUsageMap": {
+            "null.MenuItems": [
+                "1",
+                "0"
+            ],
+            "null.LoginPage": [
+                "5",
+                "0"
+            ],
+            "null.null": [
+                "1",
+                "1"
+            ]
+        },
+        "name": "Manjunath using MANJUNATH",
+        "startTime": {
+            "dateTime": "01/29/2019-21:39:33",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:39:33",
+            "raw": 1548778173215
+        },
+        "endTime": {
+            "dateTime": "01/29/2019-21:40:09",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:40:09",
+            "raw": 1548778209683
+        },
+        "passed": "7",
+        "folderName": "OS X Chrome 54.0/Manjunath using MANJUNATH",
+        "device": {
+            "capabilities": {},
+            "os": "MAC",
+            "active": false,
+            "deviceLock": "java.util.concurrent.Semaphore@4a7a965d[Permits = 1]",
+            "deviceName": "Chrome",
+            "resolution": "980 x 698",
+            "capList": [],
+            "driverType": "WEB",
+            "tagNames": [],
+            "manufacturer": "Apple Inc.",
+            "cloud": "null",
+            "environment": "MAC OS Chrome 54.0",
+            "osVersion": "OS",
+            "browserVersion": "54.0",
+            "availableDevices": "1",
+            "browserName": "Chrome",
+            "model": "null",
+            "cachedString": "null",
+            "key": "Chrome"
+        }
+    }],
+    "suiteName": "MMT"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "GMAIL (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "54357a09-b626-4b1f-a64e-dd6027794b0b",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "GMAIL",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/29/2019-21:37:15",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:37:15",
+        "raw": 1548778035486
+    },
+    "endTime": {
+        "dateTime": "01/29/2019-21:37:46",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:37:46",
+        "raw": 1548778066805
+    },
+    "reportFolder": "resources/test-output/01-29_21-37-32-307",
+    "testTags": [],
+    "executionSummary": [{
+        "exceptionType": "null",
+        "ignored": "0",
+        "elementUsageMap": {"null.null.Manjunath": {
+            "failCount": "1",
+            "keyName": "null.null.Manjunath",
+            "siteName": "null",
+            "pageName": "null",
+            "passCount": "0",
+            "elementName": "Manjunath"
+        }},
+        "failed": "1",
+        "sessionId": "0be5a2d34768b8eb8b7a4aa74eddc3e13b91adce",
+        "callMap": {},
+        "elementUsage": [{
+            "failCount": "1",
+            "keyName": "null.null.Manjunath",
+            "siteName": "null",
+            "pageName": "null",
+            "passCount": "0",
+            "elementName": "Manjunath"
+        }],
+        "tagNames": [""],
+        "cloud": {
+            "hostName": "hub-cloud.browserstack.com",
+            "proxyPort": "null",
+            "password": "Lz2oBy7QgcxQHqoms7UD",
+            "deviceAction": "null",
+            "provider": "SAUCELABS",
+            "gridInstance": "null",
+            "name": "local",
+            "description": "",
+            "userName": "manju86",
+            "proxyHost": "null",
+            "gesture": "null"
+        },
+        "total": "1",
+        "testStatus": "PASSED",
+        "pageUsageMap": {"null.null": [
+            "0",
+            "1"
+        ]},
+        "name": "Manjunath using MANJUNATH",
+        "startTime": {
+            "dateTime": "01/29/2019-21:37:30",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:37:30",
+            "raw": 1548778050699
+        },
+        "endTime": {
+            "dateTime": "01/29/2019-21:37:32",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:37:32",
+            "raw": 1548778052307
+        },
+        "passed": "0",
+        "folderName": "OS X Chrome 54.0/Manjunath using MANJUNATH",
+        "device": {
+            "capabilities": {},
+            "os": "MAC",
+            "active": false,
+            "deviceLock": "java.util.concurrent.Semaphore@1d61c6dc[Permits = 1]",
+            "deviceName": "Chrome",
+            "resolution": "980 x 698",
+            "capList": [],
+            "driverType": "WEB",
+            "tagNames": [],
+            "manufacturer": "Apple Inc.",
+            "cloud": "null",
+            "environment": "MAC OS Chrome 54.0",
+            "osVersion": "OS",
+            "browserVersion": "54.0",
+            "availableDevices": "1",
+            "browserName": "Chrome",
+            "model": "null",
+            "cachedString": "null",
+            "key": "Chrome"
+        }
+    }],
+    "suiteName": "GMAIL"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "GMAIL (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "3c3477ce-cbcf-4a72-b68d-9d4062b866a6",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "GMAIL",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/29/2019-21:33:23",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:33:23",
+        "raw": 1548777803625
+    },
+    "endTime": {
+        "dateTime": "01/29/2019-21:33:52",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:33:52",
+        "raw": 1548777832410
+    },
+    "reportFolder": "resources/test-output/01-29_21-33-39-335",
+    "testTags": [],
+    "executionSummary": [{
+        "exceptionType": "null",
+        "ignored": "0",
+        "elementUsageMap": {"null.null.Manjunath": {
+            "failCount": "1",
+            "keyName": "null.null.Manjunath",
+            "siteName": "null",
+            "pageName": "null",
+            "passCount": "0",
+            "elementName": "Manjunath"
+        }},
+        "failed": "1",
+        "sessionId": "61399e93b8bc891ca3fdb31ae95a7a7d9d625b5e",
+        "callMap": {},
+        "elementUsage": [{
+            "failCount": "1",
+            "keyName": "null.null.Manjunath",
+            "siteName": "null",
+            "pageName": "null",
+            "passCount": "0",
+            "elementName": "Manjunath"
+        }],
+        "tagNames": [""],
+        "cloud": {
+            "hostName": "hub-cloud.browserstack.com",
+            "proxyPort": "null",
+            "password": "Lz2oBy7QgcxQHqoms7UD",
+            "deviceAction": "null",
+            "provider": "SAUCELABS",
+            "gridInstance": "null",
+            "name": "local",
+            "description": "",
+            "userName": "manju86",
+            "proxyHost": "null",
+            "gesture": "null"
+        },
+        "total": "1",
+        "testStatus": "PASSED",
+        "pageUsageMap": {"null.null": [
+            "0",
+            "1"
+        ]},
+        "name": "Manjunath using MANJUNATH",
+        "startTime": {
+            "dateTime": "01/29/2019-21:33:38",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:33:38",
+            "raw": 1548777818130
+        },
+        "endTime": {
+            "dateTime": "01/29/2019-21:33:39",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:33:39",
+            "raw": 1548777819335
+        },
+        "passed": "0",
+        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
+        "device": {
+            "capabilities": {},
+            "os": "MAC",
+            "active": false,
+            "deviceLock": "java.util.concurrent.Semaphore@1d61c6dc[Permits = 1]",
+            "deviceName": "Chrome",
+            "resolution": "980 x 701",
+            "capList": [],
+            "driverType": "WEB",
+            "tagNames": [],
+            "manufacturer": "Apple Inc.",
+            "cloud": "null",
+            "environment": "MAC OS Chrome",
+            "osVersion": "OS",
+            "browserVersion": "null",
+            "availableDevices": "1",
+            "browserName": "Chrome",
+            "model": "null",
+            "cachedString": "null",
+            "key": "Chrome"
+        }
+    }],
+    "suiteName": "GMAIL"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "GMAIL (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "881a8bc7-a222-4731-887e-f7e682ad7566",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "GMAIL",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/29/2019-21:30:53",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:30:53",
+        "raw": 1548777653172
+    },
+    "endTime": {
+        "dateTime": "01/29/2019-21:31:25",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:31:25",
+        "raw": 1548777685411
+    },
+    "reportFolder": "resources/test-output/01-29_21-31-10-257",
+    "testTags": [],
+    "executionSummary": [{
+        "exceptionType": "null",
+        "ignored": "0",
+        "elementUsageMap": {"null.null.Manjunath": {
+            "failCount": "1",
+            "keyName": "null.null.Manjunath",
+            "siteName": "null",
+            "pageName": "null",
+            "passCount": "0",
+            "elementName": "Manjunath"
+        }},
+        "failed": "1",
+        "sessionId": "24b8bbefe7d08bdc0af8a684c744566bfc1dbf7d",
+        "callMap": {},
+        "elementUsage": [{
+            "failCount": "1",
+            "keyName": "null.null.Manjunath",
+            "siteName": "null",
+            "pageName": "null",
+            "passCount": "0",
+            "elementName": "Manjunath"
+        }],
+        "tagNames": [""],
+        "cloud": {
+            "hostName": "hub-cloud.browserstack.com",
+            "proxyPort": "null",
+            "password": "Lz2oBy7QgcxQHqoms7UD",
+            "deviceAction": "null",
+            "provider": "SAUCELABS",
+            "gridInstance": "null",
+            "name": "local",
+            "description": "",
+            "userName": "manju86",
+            "proxyHost": "null",
+            "gesture": "null"
+        },
+        "total": "1",
+        "testStatus": "PASSED",
+        "pageUsageMap": {"null.null": [
+            "0",
+            "1"
+        ]},
+        "name": "Manjunath using MANJUNATH",
+        "startTime": {
+            "dateTime": "01/29/2019-21:31:10",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:31:10",
+            "raw": 1548777670242
+        },
+        "endTime": {
+            "dateTime": "01/29/2019-21:31:10",
+            "dateOnly": "01/29/2019",
+            "timeOnly": "21:31:10",
+            "raw": 1548777670257
+        },
+        "passed": "0",
+        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
+        "device": {
+            "capabilities": {},
+            "os": "MAC",
+            "active": false,
+            "deviceLock": "java.util.concurrent.Semaphore@76c548f[Permits = 1]",
+            "deviceName": "Chrome",
+            "resolution": "980 x 697",
+            "capList": [],
+            "driverType": "WEB",
+            "tagNames": [],
+            "manufacturer": "Apple Inc.",
+            "cloud": "null",
+            "environment": "MAC OS Chrome",
+            "osVersion": "OS",
+            "browserVersion": "null",
+            "availableDevices": "1",
+            "browserName": "Chrome",
+            "model": "null",
+            "cachedString": "null",
+            "key": "Chrome"
+        }
+    }],
+    "suiteName": "GMAIL"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "null",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "ae15e60d-45a7-426c-a507-be44c8256b0d",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "MMT",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "01/29/2019-21:18:16",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:18:16",
+        "raw": 1548776896835
+    },
+    "endTime": {
+        "dateTime": "01/29/2019-21:18:37",
+        "dateOnly": "01/29/2019",
+        "timeOnly": "21:18:37",
+        "raw": 1548776917288
+    },
+    "reportFolder": "resources/test-output/01-29_21-18-33-696",
+    "testTags": [],
+    "executionSummary": [
+        {
+            "exceptionType": "null",
+            "ignored": "0",
+            "elementUsageMap": {"null.null.Step": {
+                "failCount": "0",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Step"
+            }},
+            "failed": "0",
+            "sessionId": "null",
+            "callMap": {},
+            "elementUsage": [{
+                "failCount": "0",
+                "keyName": "null.null.Step",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Step"
+            }],
+            "tagNames": [""],
+            "cloud": {
+                "hostName": "ondemand.saucelabs.com:80",
+                "proxyPort": "null",
+                "password": "manjunath",
+                "deviceAction": "null",
+                "provider": "SAUCELABS",
+                "gridInstance": "null",
+                "name": "local",
+                "description": "",
+                "userName": "manjuu",
+                "proxyHost": "null",
+                "gesture": "null"
+            },
+            "total": "1",
+            "testStatus": "FAILED",
+            "pageUsageMap": {"null.null": [
+                "0",
+                "0"
+            ]},
+            "name": "Manjunath using MANJUNATH",
+            "startTime": {
+                "dateTime": "01/29/2019-21:18:33",
+                "dateOnly": "01/29/2019",
+                "timeOnly": "21:18:33",
+                "raw": 1548776913607
+            },
+            "endTime": {
+                "dateTime": "01/29/2019-21:18:33",
+                "dateOnly": "01/29/2019",
+                "timeOnly": "21:18:33",
+                "raw": 1548776913696
+            },
+            "passed": "0",
+            "folderName": "MAC Chrome/Manjunath using MANJUNATH",
+            "device": {
+                "capabilities": {"windTunnelPersona": "MANJUNATH"},
+                "os": "MAC",
+                "active": true,
+                "deviceLock": "java.util.concurrent.Semaphore@1c504e66[Permits = 1]",
+                "deviceName": "null",
+                "resolution": "null",
+                "capList": [
+                    "org.xframium.device.DeviceCap@bc4d5e1",
+                    "org.xframium.device.DeviceCap@3c6aa04a",
+                    "org.xframium.device.DeviceCap@2257fadf"
+                ],
+                "driverType": "WEB",
+                "tagNames": [],
+                "manufacturer": "null",
+                "cloud": "null",
+                "environment": "MAC Chrome",
+                "osVersion": "null",
+                "browserVersion": "null",
+                "availableDevices": "1",
+                "browserName": "Chrome",
+                "model": "Chrome",
+                "cachedString": "null Chrome [Chrome]",
+                "key": "Chrome"
+            }
+        },
+        {
+            "exceptionType": "null",
+            "ignored": "0",
+            "elementUsageMap": {"null.null.Manjunath": {
+                "failCount": "1",
+                "keyName": "null.null.Manjunath",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Manjunath"
+            }},
+            "failed": "1",
+            "sessionId": "null",
+            "callMap": {},
+            "elementUsage": [{
+                "failCount": "1",
+                "keyName": "null.null.Manjunath",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Manjunath"
+            }],
+            "tagNames": [""],
+            "cloud": {
+                "hostName": "ondemand.saucelabs.com:80",
+                "proxyPort": "null",
+                "password": "manjunath",
+                "deviceAction": "null",
+                "provider": "SAUCELABS",
+                "gridInstance": "null",
+                "name": "local",
+                "description": "",
+                "userName": "manjuu",
+                "proxyHost": "null",
+                "gesture": "null"
+            },
+            "total": "1",
+            "testStatus": "FAILED",
+            "pageUsageMap": {"null.null": [
+                "0",
+                "1"
+            ]},
+            "name": "Manjunath using MANJUNATH",
+            "startTime": {
+                "dateTime": "01/29/2019-21:18:37",
+                "dateOnly": "01/29/2019",
+                "timeOnly": "21:18:37",
+                "raw": 1548776917193
+            },
+            "endTime": {
+                "dateTime": "01/29/2019-21:18:37",
+                "dateOnly": "01/29/2019",
+                "timeOnly": "21:18:37",
+                "raw": 1548776917199
+            },
+            "passed": "0",
+            "folderName": "MAC Chrome/Manjunath using MANJUNATH",
+            "device": {
+                "capabilities": {"windTunnelPersona": "MANJUNATH"},
+                "os": "MAC",
+                "active": true,
+                "deviceLock": "java.util.concurrent.Semaphore@1c504e66[Permits = 1]",
+                "deviceName": "null",
+                "resolution": "null",
+                "capList": [
+                    "org.xframium.device.DeviceCap@bc4d5e1",
+                    "org.xframium.device.DeviceCap@3c6aa04a",
+                    "org.xframium.device.DeviceCap@2257fadf"
+                ],
+                "driverType": "WEB",
+                "tagNames": [],
+                "manufacturer": "null",
+                "cloud": "null",
+                "environment": "MAC Chrome",
+                "osVersion": "null",
+                "browserVersion": "null",
+                "availableDevices": "1",
+                "browserName": "Chrome",
+                "model": "Chrome",
+                "cachedString": "null Chrome [Chrome]",
+                "key": "Chrome"
+            }
+        }
+    ],
+    "suiteName": "MMT"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "MMT (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
+        "xF-ID": "5c945cbf-3685-4efb-9d66-bdaa16ff44cf",
+        "artifactProducer.parentFolder": "test-output",
+        "deviceManagement.driverType": "WEB",
+        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
+        "pageManagement.pageData.fileName": "../resources/pageData.xml",
+        "driver.configName": "../Suite.xml",
+        "pageManagement.siteName": "MMT",
+        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
+        "artifactProducer.provider": "PERFECTO",
+        "pageManagement.pageData.provider": "XML",
+        "pageManagement.fileName": "../resources/LoginPage.xml",
+        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
+        "cloudRegistry.cloudUnderTest": "local",
+        "driver.displayResults": "true",
+        "pageManagement.pageName": "LoginPage",
+        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
+        "applicationRegistry.provider": "XML",
+        "deviceManagement.provider": "XML",
+        "selenium.timeouts.implicitWait": "6000",
+        "applicationRegistry.applicationUnderTest": "MMT",
+        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
+        "selenium.timeouts.setScript": "30000",
+        "pageManagement.provider": "XML",
+        "cloudRegistry.provider": "XML"
+    },
+    "gridUrl": "null",
+    "startTime": {
+        "dateTime": "11/26/2018-21:28:56",
+        "dateOnly": "11/26/2018",
+        "timeOnly": "21:28:56",
+        "raw": 1543247936583
+    },
+    "endTime": {
+        "dateTime": "11/26/2018-21:29:50",
+        "dateOnly": "11/26/2018",
+        "timeOnly": "21:29:50",
+        "raw": 1543247990182
+    },
+    "reportFolder": "resources/test-output/11-26_21-29-30-549",
+    "testTags": [],
+    "executionSummary": [
+        {
+            "exceptionType": "SCRIPT",
+            "ignored": "0",
+            "elementUsageMap": {
+                "null.LoginPage.btn_signinMMT": {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.btn_signinMMT",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "btn_signinMMT"
+                },
+                "null.MenuItems.btn_dressesMenu": {
+                    "failCount": "0",
+                    "keyName": "null.MenuItems.btn_dressesMenu",
+                    "siteName": "null",
+                    "pageName": "MenuItems",
+                    "passCount": "1",
+                    "elementName": "btn_dressesMenu"
+                },
+                "null.LoginPage.btn_logo": {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.btn_logo",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "btn_logo"
+                },
+                "null.null.Step": {
+                    "failCount": "1",
+                    "keyName": "null.null.Step",
+                    "siteName": "null",
+                    "pageName": "null",
+                    "passCount": "1",
+                    "elementName": "Step"
+                },
+                "null.LoginPage.icon_LoginM": {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.icon_LoginM",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "icon_LoginM"
+                },
+                "null.LoginPage.txt_passwordMMT": {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.txt_passwordMMT",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "txt_passwordMMT"
+                },
+                "null.LoginPage.txt_usernameMMT": {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.txt_usernameMMT",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "txt_usernameMMT"
+                }
+            },
+            "failed": "1",
+            "sessionId": "8e8f475e-865c-4ab2-b355-f4def87d3bdc",
+            "callMap": {},
+            "elementUsage": [
+                {
+                    "failCount": "1",
+                    "keyName": "null.null.Step",
+                    "siteName": "null",
+                    "pageName": "null",
+                    "passCount": "1",
+                    "elementName": "Step"
+                },
+                {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.btn_logo",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "btn_logo"
+                },
+                {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.btn_signinMMT",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "btn_signinMMT"
+                },
+                {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.icon_LoginM",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "icon_LoginM"
+                },
+                {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.txt_passwordMMT",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "txt_passwordMMT"
+                },
+                {
+                    "failCount": "0",
+                    "keyName": "null.LoginPage.txt_usernameMMT",
+                    "siteName": "null",
+                    "pageName": "LoginPage",
+                    "passCount": "1",
+                    "elementName": "txt_usernameMMT"
+                },
+                {
+                    "failCount": "0",
+                    "keyName": "null.MenuItems.btn_dressesMenu",
+                    "siteName": "null",
+                    "pageName": "MenuItems",
+                    "passCount": "1",
+                    "elementName": "btn_dressesMenu"
+                }
+            ],
+            "tagNames": [""],
+            "cloud": {
+                "hostName": "192.168.1.102:5555",
+                "proxyPort": "null",
+                "password": "",
+                "deviceAction": "null",
+                "provider": "SELENIUM",
+                "gridInstance": "null",
+                "name": "local",
+                "description": "",
+                "userName": "",
+                "proxyHost": "",
+                "gesture": "null"
+            },
+            "total": "8",
+            "testStatus": "FAILED",
+            "pageUsageMap": {
+                "null.MenuItems": [
+                    "1",
+                    "0"
+                ],
+                "null.LoginPage": [
+                    "5",
+                    "0"
+                ],
+                "null.null": [
+                    "1",
+                    "1"
+                ]
+            },
+            "name": "Manjunath using MANJUNATH",
+            "startTime": {
+                "dateTime": "11/26/2018-21:29:12",
+                "dateOnly": "11/26/2018",
+                "timeOnly": "21:29:12",
+                "raw": 1543247952316
+            },
+            "endTime": {
+                "dateTime": "11/26/2018-21:29:31",
+                "dateOnly": "11/26/2018",
+                "timeOnly": "21:29:31",
+                "raw": 1543247971385
+            },
+            "passed": "7",
+            "folderName": "MAC Chrome/Manjunath using MANJUNATH",
+            "device": {
+                "capabilities": {},
+                "os": "MAC",
+                "active": false,
+                "deviceLock": "java.util.concurrent.Semaphore@4916f191[Permits = 1]",
+                "deviceName": "Chrome",
+                "resolution": "1200 x 856",
+                "capList": [],
+                "driverType": "WEB",
+                "tagNames": [],
+                "manufacturer": "Apple Inc.",
+                "cloud": "null",
+                "environment": "MAC OS Chrome",
+                "osVersion": "OS",
+                "browserVersion": "null",
+                "availableDevices": "1",
+                "browserName": "Chrome",
+                "model": "null",
+                "cachedString": "null",
+                "key": "Chrome"
+            }
+        },
+        {
+            "exceptionType": "null",
+            "ignored": "0",
+            "elementUsageMap": {"null.null.Manjunath": {
+                "failCount": "1",
+                "keyName": "null.null.Manjunath",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Manjunath"
+            }},
+            "failed": "1",
+            "sessionId": "37869a61-26d5-42d5-9e18-646ad56f1b76",
+            "callMap": {},
+            "elementUsage": [{
+                "failCount": "1",
+                "keyName": "null.null.Manjunath",
+                "siteName": "null",
+                "pageName": "null",
+                "passCount": "0",
+                "elementName": "Manjunath"
+            }],
+            "tagNames": [""],
+            "cloud": {
+                "hostName": "192.168.1.102:5555",
+                "proxyPort": "null",
+                "password": "",
+                "deviceAction": "null",
+                "provider": "SELENIUM",
+                "gridInstance": "null",
+                "name": "local",
+                "description": "",
+                "userName": "",
+                "proxyHost": "",
+                "gesture": "null"
+            },
+            "total": "1",
+            "testStatus": "FAILED",
+            "pageUsageMap": {"null.null": [
+                "0",
+                "1"
+            ]},
+            "name": "Manjunath using MANJUNATH",
+            "startTime": {
+                "dateTime": "11/26/2018-21:29:49",
+                "dateOnly": "11/26/2018",
+                "timeOnly": "21:29:49",
+                "raw": 1543247989871
+            },
+            "endTime": {
+                "dateTime": "11/26/2018-21:29:49",
+                "dateOnly": "11/26/2018",
+                "timeOnly": "21:29:49",
+                "raw": 1543247989877
+            },
+            "passed": "0",
+            "folderName": "MAC Chrome/Manjunath using MANJUNATH",
+            "device": {
+                "capabilities": {},
+                "os": "MAC",
+                "active": false,
+                "deviceLock": "java.util.concurrent.Semaphore@1c1e96[Permits = 1]",
+                "deviceName": "Chrome",
+                "resolution": "1200 x 856",
+                "capList": [],
+                "driverType": "WEB",
+                "tagNames": [],
+                "manufacturer": "Apple Inc.",
+                "cloud": "null",
+                "environment": "MAC OS Chrome",
+                "osVersion": "OS",
+                "browserVersion": "null",
+                "availableDevices": "1",
+                "browserName": "Chrome",
+                "model": "null",
+                "cachedString": "null",
+                "key": "Chrome"
+            }
+        }
+    ],
+    "suiteName": "MMT"
+}}, {"pageData": {
+    "phase": "",
+    "aut": "MMT (WEB)",
+    "sPMap": {},
+    "domain": "",
+    "configProperties": {
         "xF-ID": "7b80d0fe-cdd3-4782-8377-8bb250171b15",
         "artifactProducer.parentFolder": "test-output",
         "deviceManagement.driverType": "WEB",
@@ -2666,1470 +4436,6 @@ var suiteData = [{"pageData": {
             "os": "MAC",
             "active": false,
             "deviceLock": "java.util.concurrent.Semaphore@48535004[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "18833a0f-c822-440c-92ce-35d10b6dc8e4",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "MMT",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-22:11:03",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:11:03",
-        "raw": 1542213663823
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-22:11:49",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:11:49",
-        "raw": 1542213709816
-    },
-    "reportFolder": "resources/test-output/11-14_22-11-46-705",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "null",
-        "ignored": "0",
-        "elementUsageMap": {
-            "null.LoginPage.btn_signinMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            "null.LoginPage.btn_logo": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_logo",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_logo"
-            },
-            "null.null.Step": {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            },
-            "null.LoginPage.btn_signoffFP": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signoffFP",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signoffFP"
-            },
-            "null.LoginPage.icon_LoginM": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            "null.LoginPage.txt_passwordMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            "null.LoginPage.txt_usernameMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            }
-        },
-        "failed": "0",
-        "sessionId": "04a3b938-79db-4dd2-b0cd-c460fc545d50",
-        "callMap": {},
-        "elementUsage": [
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_logo",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_logo"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signoffFP",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signoffFP"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            }
-        ],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "8",
-        "testStatus": "PASSED",
-        "pageUsageMap": {
-            "null.LoginPage": [
-                "6",
-                "0"
-            ],
-            "null.null": [
-                "1",
-                "0"
-            ]
-        },
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-22:11:25",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:11:25",
-            "raw": 1542213685690
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-22:11:46",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:11:46",
-            "raw": 1542213706705
-        },
-        "passed": "7",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@4441d567[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "9dad9211-bfbb-4774-a814-14e0c08c90cb",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "MMT",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-22:06:47",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:06:47",
-        "raw": 1542213407597
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-22:07:36",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:07:36",
-        "raw": 1542213456128
-    },
-    "reportFolder": "resources/test-output/11-14_22-07-32-586",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "null",
-        "ignored": "0",
-        "elementUsageMap": {
-            "null.LoginPage.btn_signinMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            "null.null.Step": {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            },
-            "null.LoginPage.btn_signoffFP": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signoffFP",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signoffFP"
-            },
-            "null.LoginPage.icon_LoginM": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            "null.LoginPage.txt_passwordMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            "null.LoginPage.txt_usernameMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            }
-        },
-        "failed": "0",
-        "sessionId": "445af05e-8aa3-4e42-952b-f88dab937679",
-        "callMap": {},
-        "elementUsage": [
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signoffFP",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signoffFP"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            }
-        ],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "7",
-        "testStatus": "PASSED",
-        "pageUsageMap": {
-            "null.LoginPage": [
-                "5",
-                "0"
-            ],
-            "null.null": [
-                "1",
-                "0"
-            ]
-        },
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-22:07:13",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:07:13",
-            "raw": 1542213433187
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-22:07:32",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:07:32",
-            "raw": 1542213452586
-        },
-        "passed": "6",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@4441d567[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "c6101c4c-cb53-4edc-a970-e3ca45975eb5",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "MMT",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-22:04:47",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:04:47",
-        "raw": 1542213287204
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-22:05:21",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:05:21",
-        "raw": 1542213321052
-    },
-    "reportFolder": "resources/test-output/11-14_22-05-17-234",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "null",
-        "ignored": "0",
-        "elementUsageMap": {
-            "null.LoginPage.btn_signinMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            "null.null.Step": {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            },
-            "null.LoginPage.icon_LoginM": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            "null.LoginPage.txt_passwordMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            "null.LoginPage.txt_usernameMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            }
-        },
-        "failed": "0",
-        "sessionId": "6c196a40-58a7-4a8c-8f06-d591ccb65095",
-        "callMap": {},
-        "elementUsage": [
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            }
-        ],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "5",
-        "testStatus": "PASSED",
-        "pageUsageMap": {
-            "null.LoginPage": [
-                "4",
-                "0"
-            ],
-            "null.null": [
-                "1",
-                "0"
-            ]
-        },
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-22:05:04",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:05:04",
-            "raw": 1542213304607
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-22:05:17",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:05:17",
-            "raw": 1542213317234
-        },
-        "passed": "5",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@4441d567[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "ab3d2eff-e58f-4b69-9d73-b87125b4ace8",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "MMT",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-22:02:56",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:02:56",
-        "raw": 1542213176591
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-22:04:04",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:04:04",
-        "raw": 1542213244300
-    },
-    "reportFolder": "resources/test-output/11-14_22-04-01-839",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "null",
-        "ignored": "0",
-        "elementUsageMap": {
-            "null.LoginPage.btn_signinMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            "null.null.Step": {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            },
-            "null.LoginPage.icon_LoginM": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            "null.LoginPage.txt_passwordMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            "null.LoginPage.txt_usernameMMT": {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            }
-        },
-        "failed": "0",
-        "sessionId": "c5176272-2264-4171-a065-d022bd4b62bf",
-        "callMap": {},
-        "elementUsage": [
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.btn_signinMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "btn_signinMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.icon_LoginM",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "icon_LoginM"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_passwordMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_passwordMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.LoginPage.txt_usernameMMT",
-                "siteName": "null",
-                "pageName": "LoginPage",
-                "passCount": "1",
-                "elementName": "txt_usernameMMT"
-            },
-            {
-                "failCount": "0",
-                "keyName": "null.null.Step",
-                "siteName": "null",
-                "pageName": "null",
-                "passCount": "1",
-                "elementName": "Step"
-            }
-        ],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "5",
-        "testStatus": "PASSED",
-        "pageUsageMap": {
-            "null.LoginPage": [
-                "4",
-                "0"
-            ],
-            "null.null": [
-                "1",
-                "0"
-            ]
-        },
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-22:03:50",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:03:50",
-            "raw": 1542213230618
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-22:04:01",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:04:01",
-            "raw": 1542213241839
-        },
-        "passed": "5",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@4441d567[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "5474d24b-5cc9-467c-99fc-b97808712ce0",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "FlightApp",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-22:00:19",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:00:19",
-        "raw": 1542213019842
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-22:01:34",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "22:01:34",
-        "raw": 1542213094055
-    },
-    "reportFolder": "resources/test-output/11-14_22-01-29-489",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "SCRIPT",
-        "ignored": "0",
-        "elementUsageMap": {"null.null.Step": {
-            "failCount": "1",
-            "keyName": "null.null.Step",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Step"
-        }},
-        "failed": "1",
-        "sessionId": "1fc0f2f5-6029-4088-9602-604c1358b56b",
-        "callMap": {},
-        "elementUsage": [{
-            "failCount": "1",
-            "keyName": "null.null.Step",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Step"
-        }],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "1",
-        "testStatus": "FAILED",
-        "pageUsageMap": {"null.null": [
-            "0",
-            "1"
-        ]},
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-22:01:29",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:01:29",
-            "raw": 1542213089418
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-22:01:30",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "22:01:30",
-            "raw": 1542213090119
-        },
-        "passed": "0",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@2c6ee758[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "c077dea9-0412-437f-91ab-54d062dca218",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "FlightApp",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-21:59:28",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:59:28",
-        "raw": 1542212968077
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-21:59:50",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:59:50",
-        "raw": 1542212990510
-    },
-    "reportFolder": "resources/test-output/11-14_21-59-46-074",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "null",
-        "ignored": "0",
-        "elementUsageMap": {"null.null.Manjunath": {
-            "failCount": "1",
-            "keyName": "null.null.Manjunath",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Manjunath"
-        }},
-        "failed": "1",
-        "sessionId": "7ed2d1a4-e4b9-493b-b9f0-70a2ece68540",
-        "callMap": {},
-        "elementUsage": [{
-            "failCount": "1",
-            "keyName": "null.null.Manjunath",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Manjunath"
-        }],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "1",
-        "testStatus": "FAILED",
-        "pageUsageMap": {"null.null": [
-            "0",
-            "1"
-        ]},
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-21:59:45",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:59:45",
-            "raw": 1542212985695
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-21:59:46",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:59:46",
-            "raw": 1542212986074
-        },
-        "passed": "0",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@7144655b[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "null",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "03bb51ed-4853-46a8-b98d-ad78eefef42b",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "FlightApp",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-21:58:46",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:58:46",
-        "raw": 1542212926362
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-21:58:54",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:58:54",
-        "raw": 1542212934362
-    },
-    "reportFolder": "resources/test-output/11-14_21-58-50-227",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "null",
-        "ignored": "0",
-        "elementUsageMap": {"null.null.Manjunath": {
-            "failCount": "1",
-            "keyName": "null.null.Manjunath",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Manjunath"
-        }},
-        "failed": "1",
-        "sessionId": "null",
-        "callMap": {},
-        "elementUsage": [{
-            "failCount": "1",
-            "keyName": "null.null.Manjunath",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Manjunath"
-        }],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "1",
-        "testStatus": "FAILED",
-        "pageUsageMap": {"null.null": [
-            "0",
-            "1"
-        ]},
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-21:58:50",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:58:50",
-            "raw": 1542212930157
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-21:58:50",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:58:50",
-            "raw": 1542212930227
-        },
-        "passed": "0",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {"windTunnelPersona": "MANJUNATH"},
-            "os": "MAC",
-            "active": true,
-            "deviceLock": "java.util.concurrent.Semaphore@1949309d[Permits = 1]",
-            "deviceName": "null",
-            "resolution": "null",
-            "capList": [
-                "org.xframium.device.DeviceCap@99a78d7",
-                "org.xframium.device.DeviceCap@31da6b2e",
-                "org.xframium.device.DeviceCap@61c76850"
-            ],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "null",
-            "cloud": "null",
-            "environment": "MAC Chrome",
-            "osVersion": "null",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "Chrome",
-            "cachedString": "null Chrome [Chrome]",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "c6d7d668-8ba9-4e4c-8a28-fa0263b1b844",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "FlightApp",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-21:36:09",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:36:09",
-        "raw": 1542211569200
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-21:36:54",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:36:54",
-        "raw": 1542211614598
-    },
-    "reportFolder": "resources/test-output/11-14_21-36-49-589",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "null",
-        "ignored": "0",
-        "elementUsageMap": {"null.null.Manjunath": {
-            "failCount": "1",
-            "keyName": "null.null.Manjunath",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Manjunath"
-        }},
-        "failed": "1",
-        "sessionId": "5c6933ff-42f3-406a-a670-ee2aba61799f",
-        "callMap": {},
-        "elementUsage": [{
-            "failCount": "1",
-            "keyName": "null.null.Manjunath",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Manjunath"
-        }],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "1",
-        "testStatus": "FAILED",
-        "pageUsageMap": {"null.null": [
-            "0",
-            "1"
-        ]},
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-21:36:49",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:36:49",
-            "raw": 1542211609558
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-21:36:49",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:36:49",
-            "raw": 1542211609589
-        },
-        "passed": "0",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@3625a016[Permits = 1]",
-            "deviceName": "Chrome",
-            "resolution": "1200 x 856",
-            "capList": [],
-            "driverType": "WEB",
-            "tagNames": [],
-            "manufacturer": "Apple Inc.",
-            "cloud": "null",
-            "environment": "MAC OS Chrome",
-            "osVersion": "OS",
-            "browserVersion": "null",
-            "availableDevices": "1",
-            "browserName": "Chrome",
-            "model": "null",
-            "cachedString": "null",
-            "key": "Chrome"
-        }
-    }],
-    "suiteName": "MMT"
-}}, {"pageData": {
-    "phase": "",
-    "aut": "MMT (WEB)",
-    "sPMap": {},
-    "domain": "",
-    "configProperties": {
-        "xF-ID": "58b3e52c-1b2b-461c-9762-e5407c6c622a",
-        "artifactProducer.parentFolder": "test-output",
-        "deviceManagement.driverType": "WEB",
-        "applicationRegistry.fileName": "../resources/applicationRegistry.xml",
-        "driver.configName": "../Suite.xml",
-        "pageManagement.siteName": "FlightApp",
-        "artifactProducer.automated": "EXECUTION_SUITE_HTML,EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS",
-        "artifactProducer.provider": "PERFECTO",
-        "pageManagement.fileName": "../resources/LoginPage.xml",
-        "driver.propertyAdapters": "org.xframium.device.property.SeleniumPropertyAdapter",
-        "cloudRegistry.cloudUnderTest": "local",
-        "driver.displayResults": "true",
-        "pageManagement.pageName": "LoginPage",
-        "cloudRegistry.fileName": "../resources/cloudRegistry.xml",
-        "applicationRegistry.provider": "XML",
-        "deviceManagement.provider": "XML",
-        "selenium.timeouts.implicitWait": "6000",
-        "applicationRegistry.applicationUnderTest": "MMT",
-        "deviceManagement.fileName": "../resources/deviceRegistry.xml",
-        "selenium.timeouts.setScript": "30000",
-        "pageManagement.provider": "XML",
-        "cloudRegistry.provider": "XML"
-    },
-    "gridUrl": "null",
-    "startTime": {
-        "dateTime": "11/14/2018-21:23:04",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:23:04",
-        "raw": 1542210784120
-    },
-    "endTime": {
-        "dateTime": "11/14/2018-21:23:36",
-        "dateOnly": "11/14/2018",
-        "timeOnly": "21:23:36",
-        "raw": 1542210816201
-    },
-    "reportFolder": "resources/test-output/11-14_21-23-28-749",
-    "testTags": [],
-    "executionSummary": [{
-        "exceptionType": "SCRIPT",
-        "ignored": "0",
-        "elementUsageMap": {"null.null.Step": {
-            "failCount": "1",
-            "keyName": "null.null.Step",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Step"
-        }},
-        "failed": "1",
-        "sessionId": "13ad3c35-24ba-4e45-bb21-d62a5f43aa94",
-        "callMap": {},
-        "elementUsage": [{
-            "failCount": "1",
-            "keyName": "null.null.Step",
-            "siteName": "null",
-            "pageName": "null",
-            "passCount": "0",
-            "elementName": "Step"
-        }],
-        "tagNames": [""],
-        "cloud": {
-            "hostName": "127.0.0.1:4444",
-            "proxyPort": "null",
-            "password": "",
-            "deviceAction": "null",
-            "provider": "SELENIUM",
-            "gridInstance": "null",
-            "name": "local",
-            "description": "",
-            "userName": "",
-            "proxyHost": "",
-            "gesture": "null"
-        },
-        "total": "1",
-        "testStatus": "FAILED",
-        "pageUsageMap": {"null.null": [
-            "0",
-            "1"
-        ]},
-        "name": "Manjunath using MANJUNATH",
-        "startTime": {
-            "dateTime": "11/14/2018-21:23:28",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:23:28",
-            "raw": 1542210808688
-        },
-        "endTime": {
-            "dateTime": "11/14/2018-21:23:30",
-            "dateOnly": "11/14/2018",
-            "timeOnly": "21:23:30",
-            "raw": 1542210810505
-        },
-        "passed": "0",
-        "folderName": "MAC Chrome/Manjunath using MANJUNATH",
-        "device": {
-            "capabilities": {},
-            "os": "MAC",
-            "active": false,
-            "deviceLock": "java.util.concurrent.Semaphore@123307c4[Permits = 1]",
             "deviceName": "Chrome",
             "resolution": "1200 x 856",
             "capList": [],

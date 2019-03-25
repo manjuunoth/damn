@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="384594" started-at="2018-11-19T16:11:36Z" finished-at="2018-11-19T16:18:01Z">
+  <suite name="Default suite" duration-ms="24969" started-at="2019-03-18T17:41:24Z" finished-at="2019-03-18T17:41:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="384594" started-at="2018-11-19T16:11:36Z" finished-at="2018-11-19T16:18:01Z">
+    <test name="Default test" duration-ms="24969" started-at="2019-03-18T17:41:24Z" finished-at="2019-03-18T17:41:49Z">
       <class name="test.Tes">
-        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="setupSuite" is-config="true" duration-ms="1842" started-at="2018-11-19T21:41:34Z" finished-at="2018-11-19T21:41:36Z">
+        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:test.Tes@646d64ab]" name="setupSuite" is-config="true" duration-ms="1416" started-at="2019-03-18T23:11:23Z" finished-at="2019-03-18T23:11:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7de843ef]]>
+                <![CDATA[org.testng.TestRunner@226eba67]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="beforeMethod" is-config="true" duration-ms="384279" started-at="2018-11-19T21:41:36Z" finished-at="2018-11-19T21:48:00Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestContext)[pri:0, instance:test.Tes@646d64ab]" name="beforeMethod" is-config="true" duration-ms="13988" started-at="2019-03-18T23:11:24Z" finished-at="2019-03-18T23:11:38Z">
           <params>
             <param index="0">
               <value>
@@ -27,23 +27,23 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@2e1af49b]]>
+                <![CDATA[[Ljava.lang.Object;@1cb7936c]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@7de843ef]]>
+                <![CDATA[org.testng.TestRunner@226eba67]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="Manjunath(org.xframium.device.ng.TestContainer)[pri:0, instance:test.Tes@34cd072c]" name="Manjunath" duration-ms="217" started-at="2018-11-19T21:48:00Z" data-provider="mlqDeviceManager" finished-at="2018-11-19T21:48:01Z">
+        <test-method status="FAIL" signature="Manjunath(org.xframium.device.ng.TestContainer)[pri:0, instance:test.Tes@646d64ab]" name="Manjunath" duration-ms="513" started-at="2019-03-18T23:11:38Z" data-provider="mlqDeviceManager" finished-at="2019-03-18T23:11:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.xframium.device.ng.TestContainer@408b87aa]]>
+                <![CDATA[org.xframium.device.ng.TestContainer@2063c53e]]>
               </value>
             </param>
           </params>
@@ -83,75 +83,17 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.xframium.page.factory.DefaultPageFactory.invoke(DefaultPageFactory.java:165)
 	... 26 more
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=70.0.3538.102)
-  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
-System info: host: 'S.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '10.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53349}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.org.chromium.Chromium.aLnOsN}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ff1719bef7881097098ae24b398b3cdc
-Command duration or timeout: 174 milliseconds
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
-	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:374)
-	at org.xframium.device.factory.DeviceWebDriver.getCurrentUrl(DeviceWebDriver.java:669)
-	at pages.spi.LoginPageImpl.login(LoginPageImpl.java:31)
+Caused by: java.lang.NullPointerException
+	at utils.CustomAbstractPage.getElement(CustomAbstractPage.java:20)
+	at pages.spi.LoginPageImpl.login(LoginPageImpl.java:36)
 	... 31 more
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
-	... 36 more
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=70.0.3538.102)
-  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
-System info: host: 'S.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '10.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53349}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.org.chromium.Chromium.aLnOsN}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ff1719bef7881097098ae24b398b3cdc
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'S.local', ip: '2405:204:519a:f94c:b965:373:5336:bf8d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_171'
-Driver info: driver.version: EventFiringWebDriver
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:326)
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.getCurrentUrl(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getCurrentUrl(EventFiringWebDriver.java:168)
-	at org.openqa.selenium.remote.server.handler.GetCurrentUrl.call(GetCurrentUrl.java:31)
-	at org.openqa.selenium.remote.server.handler.GetCurrentUrl.call(GetCurrentUrl.java:1)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.lang.Thread.run(Thread.java:844)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.reflect.UndeclaredThrowableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Manjunath -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:test.Tes@34cd072c]" name="afterMethod" is-config="true" duration-ms="60" started-at="2018-11-19T21:48:01Z" finished-at="2018-11-19T21:48:01Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:test.Tes@646d64ab]" name="afterMethod" is-config="true" duration-ms="10442" started-at="2019-03-18T23:11:39Z" finished-at="2019-03-18T23:11:49Z">
           <params>
             <param index="0">
               <value>
@@ -160,24 +102,24 @@ Driver info: driver.version: EventFiringWebDriver
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@2e1af49b]]>
+                <![CDATA[[Ljava.lang.Object;@1cb7936c]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[[TestResult name=Manjunath status=FAILURE method=Tes.Manjunath(org.xframium.device.ng.TestContainer)[pri:0, instance:test.Tes@34cd072c] output={null}]]]>
+                <![CDATA[[TestResult name=Manjunath status=FAILURE method=Tes.Manjunath(org.xframium.device.ng.TestContainer)[pri:0, instance:test.Tes@646d64ab] output={null}]]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@7de843ef]]>
+                <![CDATA[org.testng.TestRunner@226eba67]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="cleanSuite()[pri:0, instance:test.Tes@34cd072c]" name="cleanSuite" is-config="true" duration-ms="61" started-at="2018-11-19T21:48:01Z" finished-at="2018-11-19T21:48:01Z">
+        <test-method status="PASS" signature="cleanSuite()[pri:0, instance:test.Tes@646d64ab]" name="cleanSuite" is-config="true" duration-ms="0" started-at="2019-03-18T23:11:49Z" finished-at="2019-03-18T23:11:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanSuite -->

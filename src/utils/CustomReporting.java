@@ -32,7 +32,7 @@ private CustomReporting() {}
 public void startStep (String type, Element element, String []args)
 {
 	
-	KeyWordStep step = KeyWordStepFactory.instance().createStep(element.getName(), element.getPageName(), true, type, "",false, StepFailure.IGNORE, false, "", "", "", 0, "", 0, "", "", "", null, "", false, false, "", "", null, "");
+	KeyWordStep step = KeyWordStepFactory.instance().createStep(element.getName(), element.getPageName(), true, type, "",false, StepFailure.IGNORE, false, "", "", "", 0, "", 0, "", "", "", null, "", false, false, "", "", null, "", type, type, false, type, type, false);
 	if(args!=null)
 	{
 		for (String  value : args)
@@ -110,7 +110,7 @@ public void startSyntheticStep(StepStatus status, String message, DeviceWebDrive
 
 {
 driver.getExecutionContext().startStep(new SyntheticStep("Step","Step",message), null, null);
-driver.getExecutionContext().completeStep(status, ex);
+driver.getExecutionContext().completeStep(status, ex, message);
 
 }
 
@@ -125,9 +125,9 @@ public void completeStep(DeviceWebDriver driver, Exception ex)
 		ExecutionContextStep currentStep = driver.getExecutionContext().getStep();
 		StepStatus status = currentStep.getStatus()==true?StepStatus.SUCCESS:StepStatus.FAILURE;
 		if(ExceptionUtils.indexOfType(ex, XFramiumException.class)==-1 && ex!=null)
-			driver.getExecutionContext().completeStep(status, new ScriptException(ex.getMessage()));
+			driver.getExecutionContext().completeStep(status, new ScriptException(ex.getMessage()), null);
 		else
-			driver.getExecutionContext().completeStep(status, ex);
+			driver.getExecutionContext().completeStep(status, ex, null);
 		
 	}
 }
@@ -140,9 +140,9 @@ public void completeStep(StepStatus status, DeviceWebDriver driver, Exception ex
 	
 	}
 	if(ExceptionUtils.indexOfType(ex, XFramiumException.class)==-1 && ex!=null)
-		driver.getExecutionContext().completeStep(status, new ScriptException(ex.getMessage()));
+		driver.getExecutionContext().completeStep(status, new ScriptException(ex.getMessage()), null);
 	else
-		driver.getExecutionContext().completeStep(status, ex);
+		driver.getExecutionContext().completeStep(status, ex, null);
 }
 
 

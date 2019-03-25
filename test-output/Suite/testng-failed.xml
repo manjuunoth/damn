@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" data-provider-thread-count="1">
-  <test name="Test(failed)">
+<suite name="Failed suite [Suite]" parallel="tests" data-provider-thread-count="2">
+  <test name="Test(failed)" parallel="tests">
     <classes>
       <class name="test.Tes">
         <methods>
           <include name="beforeMethod"/>
-          <include name="Manjunath" invocation-numbers="0"/>
+          <include name="Manjunath" invocation-numbers="0 1"/>
           <include name="setupSuite"/>
           <include name="afterMethod"/>
           <include name="cleanSuite"/>

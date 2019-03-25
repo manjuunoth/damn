@@ -28,7 +28,7 @@ public   class LoginPageImpl extends CustomAbstractPage implements LoginPage
 	{
 	
 		CustomReporting.instance().startSyntheticStep("LogIn To Application", getCustumWebDriver(), new String[] {});
-		String strUrl = getCustumWebDriver().getCurrentUrl();
+	String strUrl = getCustumWebDriver().getCurrentUrl();
 		
 		PageData pageData [] = getRecords("authData");
 		
@@ -42,7 +42,7 @@ public   class LoginPageImpl extends CustomAbstractPage implements LoginPage
 		
 		waitForPageLoad();
 		
-		CustomReporting.instance().completeStep(StepStatus.SUCCESS, getCustumWebDriver(), new IgnoreMLQException(strUrl));
+	//	CustomReporting.instance().completeStep(StepStatus.SUCCESS, getCustumWebDriver(), new IgnoreMLQException(strUrl));
 	
 	
 	}
