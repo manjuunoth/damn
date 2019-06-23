@@ -74,32 +74,7 @@
 
 	   </plugin>
 	   
-	   <plugin>
-	   <artifactId>maven-antrun-plugin</artifactId>
-	   <version>1.8</version>
-	   <executions>
-	   <execution>
-	   <phase>install</phase>
-	 <configuration>
-	   <target>
-	   <last id = "last.dir">
-	   <sort>
-	   <dirset dir = "${project.basedir}/test-output" includes = "*" />
-	   <date/>
-	   </sort>
-	   </last>
-	   <property name ="LatestResult" value ="${ant.refid:last.dir}" />
-	   <echo message="${LatestResult}"/>
-	<delete file ="${project.basedir/test-output/LatestResult.zip" />   
-	   <zip destfile = "${project.basedir/test-output/LatestResult.zip" 
-	   basedir ="${LatestResult}" exclude="dont*.*" />
-	   </target>
-	   </configuration>
-	   <goals>
-	   <goal>run</goal>
-	   </goals>
-	   </execution></executions>
-	   </plugin>
+	 
 	   
   </plugins>
   </build>
