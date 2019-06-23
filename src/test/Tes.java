@@ -6,7 +6,7 @@ import org.xframium.device.factory.DeviceWebDriver;
 import org.xframium.device.ng.TestContainer;
 
 import pages.spi.LoginPageImpl;
-import pages.spi.MenuItemsImpl;
+
 import utils.CustomAbstractSeleniumTest;
 
 public class Tes extends CustomAbstractSeleniumTest 
@@ -22,7 +22,7 @@ public class Tes extends CustomAbstractSeleniumTest
 		String tcID= getTestName();
 		
 		LoginPageImpl.instance(driver).login(tcID, softAssert);
-		MenuItemsImpl.instance(driver).selectProduct("DRESSES", softAssert);
+		
 		LoginPageImpl.instance(driver).logout(tcID, softAssert);
 		
 		softAssert.assertAll();
