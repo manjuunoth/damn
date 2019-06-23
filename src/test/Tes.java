@@ -24,8 +24,10 @@ public class Tes extends CustomAbstractSeleniumTest
 		LoginPageImpl.instance(driver).login(tcID, softAssert);
 		
 		LoginPageImpl.instance(driver).logout(tcID, softAssert);
-		System.out.println("Job Testing");
+		System.out.println("Job Testing ");
 		softAssert.assertAll();
+		
+		System.out.println("ava");
 		System.out.println("Finished");
 		
 		
